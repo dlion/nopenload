@@ -4,7 +4,7 @@ OpenLoad.co node wrapper
 ## Install
 ```
 npm install nopenload
-``
+```
 
 ## Usage
 ```js
@@ -23,10 +23,10 @@ api.accountInfo(function(err, body) {
 ```
 
 ## TODO
--[] Upload
--[] Remote Upload
--[] Check Remote Upload Status
--[] Tests
+- [ ] Upload
+- [ ] Remote Upload
+- [ ] Check Remote Upload Status
+- [ ] Tests
 
 ## Author
 Domenico Luciani
