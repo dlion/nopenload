@@ -12,6 +12,8 @@ var nol = require('nopenload');
 
 var api = new nol('fdef57504268c1b4','kdDQrTxA');
 
+//Account Info
+
 api.accountInfo(function(err, body) {
   console.log("--- ACCOUNT INFO ---");
   if(err) {
@@ -20,10 +22,25 @@ api.accountInfo(function(err, body) {
     console.log(body);
   }
 });
+
+//Upload a file
+
+api.getUploadUrl(function(err, body) {
+  if(err) {
+    console.log("ERROR N: "+err+" Msg: "+body);
+  } else {
+    api.upload(body.result.url, "FILEPATH", function(err, body) {
+      if(err) {
+        console.log("ERROR N: "+err+" Msg: "+body);
+      }
+      console.log(body);
+    });
+  }
+});
 ```
 
 ## TODO
-- [ ] Upload
+- [X] Upload
 - [ ] Remote Upload
 - [ ] Check Remote Upload Status
 - [ ] Tests
