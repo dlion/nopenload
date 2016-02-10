@@ -1,6 +1,6 @@
 {
   "name": "nopenload",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "OpenLoad.co node wrapper",
   "main": "index.js",
   "dependencies": {
@@ -21,7 +21,10 @@
     "upload",
     "file"
   ],
-  "author": "Domenico Luciani",
+  "author": {
+    "email": "domenicoleoneluciani@gmail.com",
+    "name": "Domenico Luciani"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/dlion/nopenload/issues"
