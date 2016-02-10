@@ -1,0 +1,30 @@
+{
+  "name": "nopenload",
+  "version": "1.0.0",
+  "description": "OpenLoad.co node wrapper",
+  "main": "index.js",
+  "dependencies": {
+    "request": "^2.69.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlion/nopenload.git"
+  },
+  "keywords": [
+    "nopenload",
+    "openload",
+    "wrapper",
+    "upload",
+    "file"
+  ],
+  "author": "Domenico Luciani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dlion/nopenload/issues"
+  },
+  "homepage": "https://github.com/dlion/nopenload#readme"
+}
