@@ -42,7 +42,7 @@ api.getUploadUrl(function(err, body) {
 ## TODO
 - [X] Upload
 - [X] Remote Upload
-- [ ] Check Remote Upload Status
+- [X] Check Remote Upload Status
 - [ ] Tests
 
 ## Author
